@@ -1,0 +1,7 @@
+# data files
+*.csv
+*.arff
+
+# Vim files
+.vimrc
+.jshintrc

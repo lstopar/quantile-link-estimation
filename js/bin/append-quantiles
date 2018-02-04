@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ../src
+node --max-old-space-size=8192 estimate-quantiles.js --in $1 --out $2 --skip 20
